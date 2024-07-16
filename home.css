@@ -1,0 +1,205 @@
+@font-face {
+    font-family: "codec_normal";
+    src: url(media/font/codec.cold-trial-extralight.ttf);
+}
+@font-face {
+    font-family: "caviar_normal";
+    src: url(media/font/CaviarDreams.ttf);
+}
+@font-face {
+    font-family: "caviar_bold";
+    src: url(media/font/Caviar_Dreams_Bold.ttf);
+}
+@font-face {
+    font-family: "codec_bold";
+    src: url(media\font\codec.cold-trial-bold.ttf);
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+.navbar {
+    background-color: #138086;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 10px 20px;
+    height: 40px;
+    font-family: "Lato", sans-serif;
+}
+
+.navbar-logo {
+    letter-spacing: 2px;
+    color: white;
+    float: left;
+    margin-right: 20px;
+    font-size: 24px;
+    line-height: 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar-logo::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    transform: scale(0);
+    transition: transform 0.3s ease;
+    background-color: white;
+}
+.navbar-logo:hover::after {
+    transform: scale(1);
+}
+
+.navbar-button {
+    letter-spacing: 2px;
+    color: white;
+    float: right;
+    margin-right: 10px;
+    background-color: transparent;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 25px;
+}
+.navbar-button::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    transform: scale(0);
+    transition: transform 0.3s ease;
+    background-color: white;
+}
+.navbar-button:hover::after {
+    transform: scale(1);
+}
+#popup{
+    display: none;    
+    position: absolute;  
+    top: 45px;  
+    right: 370px;
+    margin-top: 5px;
+    background-color: #ffffff;   
+    border: 1px solid black; 
+    padding: 10px;    
+}
+#resume{
+    text-decoration: none;
+    opacity: 100%;
+}
+.intro {
+    margin-top: 170px;
+    text-align: center;
+}
+h1 {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 150px;
+    font-family: "codec_normal";
+}
+.intro p {
+    font-family: "caviar_bold";
+    font-size: larger;
+    line-height: 200%;
+    letter-spacing: 1px;
+}
+.skills {
+    text-align: center;
+}
+.skills p {
+    font-family: "caviar_bold";
+    font-size: larger;
+    line-height: 200%;
+    letter-spacing: 1px;
+}
+
+.icons img {
+    height: 30px;
+    width: 50px;
+    margin-left: 25px;
+}
+.icons img:hover {
+    transform: translateY(-5px);
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    border-radius: 5%;
+    color: black;
+    height: 350px;
+    width: 250px;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+}
+.card:hover {    
+    box-shadow: 0px 0px 200px rgb(152, 164, 163);
+}
+.pic {
+    margin: 10px 20px 20px 37px;
+    height: 160px;
+    width: 170px;
+}
+.slider {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+}
+.slider:active {
+    box-shadow: 0px 0px 6px rgb(152, 164, 163);
+}
+.slider img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    opacity: 50%;
+}
+
+.desc {
+    font-family: "caviar_normal";
+    font-size: small;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.socials {
+    display: flex;
+    justify-content: center;
+}
+.heading {
+    font-family: "codec_normal";
+    font-weight: 500;
+}
+#prev {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#next {
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.social-img {
+    width: 70px;
+    height: 70px;
+    margin: 30px;
+}
+.social-img:hover {
+    transform: translateY(-5px);
+}
+footer {
+    margin-top: 50px;
+    height: 20px;
+    background-color: #138086;
+}
+.address {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 2px;
+}
