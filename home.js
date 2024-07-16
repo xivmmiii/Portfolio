@@ -7,8 +7,8 @@ var file_type = ".png";
 
 var file_name = [
     "Snake Game",
-    "TicTacToe",    
-    "India states' game",    
+    "TicTacToe",
+    "India states' game",
     "Morse Code Converter",
     "Gelato Timer",
     "Flash Card",
@@ -16,14 +16,14 @@ var file_name = [
     "Random Walk",
 ];
 var dec = [
-    "It is a GUI based version of the famous traditional brain tease. The player competes with the computer and aims to win the game.",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
+    "Developed a classic Snake game in Python, featuring smooth controls, real-time scoring, and increasing difficulty, providing an engaging and nostalgic gaming experience",
+    "It is a GUI based version of the famous traditional brain tease. The player competes with the computer and aims to win the game",
+    "Developed an interactive Python game that displays India's map, prompting users to identify states by name, with correct entries highlighted on the map at specified coordinates",
+    "Created a Python-based Morse code converter that translates text to Morse code offering a user-friendly interface for encoding messages",
+    "Built a Python-based gelato timer app, featuring an intuitive interface to ensure perfect gelato consistency every time.",
+    "Created a Python flash card game for learning French words, featuring randomized cards to enhance vocabulary acquisition.",
+    "Developed a Python turtle race game using the Turtle module, featuring a turtle with randomized movements and engaging visual animations.",
+    "Developed a Python program using the Turtle module creating unique and intricate patterns with each run, showcasing dynamic visual art.",
 ];
 
 var pic = document.getElementsByClassName("pic");
